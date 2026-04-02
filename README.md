@@ -93,11 +93,12 @@ python agent.py start
 
 ## Talking to the Agent
 
-1. Go to [LiveKit Cloud](https://cloud.livekit.io)
-2. Open your project
-3. Click **Playground** in the left sidebar
-4. Grant microphone access when prompted
-5. Start speaking -- the agent connects automatically
+1. Make sure the agent is running (`python agent.py dev`)
+2. Open the [LiveKit Agents Playground](https://agents-playground.livekit.io)
+3. Connect it to your LiveKit Cloud project
+4. Set the **Agent name** field to `voice-poc`
+5. Grant microphone access when prompted
+6. Start speaking
 
 ## Project Structure
 
